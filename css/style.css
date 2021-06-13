@@ -1,5 +1,12 @@
-krisna31 {
+.h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
-    align-items: center;
+    align: center;
+
+}
+
+img {
+    width: 70%;
+    height: 60%;
+
 }
