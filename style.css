@@ -1,71 +1,16 @@
-/* Style start here */
-
-body {
-	font: 15px/28px arial, sans-serif;
-	background-image: url(picture/2.png);
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
 }
 
-.container {
-	width: 800px;
-	margin: auto;
-	background-color: gainsboro;
+.jumbotron img {
+  width: 40vmin;
 }
 
-.header {
-	margin: 5px;
+section {
+  padding-top: 5rem;
 }
 
-.header h1 {
-	margin-bottom: 15px;
-	margin-top: -5px;
-	padding-top: 8px;
-	font-size: 40px;
-}
-
-.header ul li {
-	display: inline-block;
-	margin-right: 3px;
-}
-
-.header a {
-	text-decoration: none;
-	color: salmon;
-}
-
-.header a:hover {
-	background-color: lightblue;
-	color: white;
-}
-
-.hero {
-	height: 250px;
-	background-image: url(picture/hero.png);
-	background-size: cover;
-	background-position-y: -88px;
-	border-top: 5px solid rgba(137, 255, 27, 0.667);
-	border-bottom: 5px solid rgba(192, 17, 17, 0.479);
-}
-
-.main {
-	margin: 10px;
-}
-
-.main h2 {
-	margin: 5px;
-	font-size: 24px;
-}
-
-.main p {
-	margin: 8px;
-	font-size: 12px;
-}
-
-.footer {
-	background-color: rgb(34, 31, 31);
-	padding: 18px;
-}
-
-.footer p {
-	text-align: center;
-	color: white;
+.project {
+  background-color: #e2edff;
 }
