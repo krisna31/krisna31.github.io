@@ -6,15 +6,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- AOS js -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- my css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Portfolio with B-5</title>
 </head>
 
 <body id="home">
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top" data-aos="zoom-in-down">
     <div class="container">
       <a class="navbar-brand" href="#home">Krisna</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,9 +45,9 @@
   <!-- akhir navbar -->
   <!-- jumbotron -->
   <section class="jumbotron text-center">
-    <img src="img/profile.png" class="rounded-circle img-thumbnail">
-    <h1 class="display-4">Krisna</h1>
-    <p class="lead">Student | Indonesia</p>
+    <img src="img/profile.png" class="rounded-circle mb-3 img-thumbnail" alt="profile-krisna" data-aos="zoom-out">
+    <h1 class="display-4" data-aos="zoom-out">Krisna</h1>
+    <p class="lead" data-aos="zoom-out">Student | Indonesia</p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
         d="M0,224L34.3,192C68.6,160,137,96,206,69.3C274.3,43,343,53,411,74.7C480,96,549,128,617,149.3C685.7,171,754,181,823,160C891.4,139,960,85,1029,101.3C1097.1,117,1166,203,1234,224C1302.9,245,1371,203,1406,181.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
@@ -56,18 +59,22 @@
   <section class="about" id="about">
     <div class="container">
       <div class="row text-center mb-5">
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
           <h2>About Me</h2>
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center my-5">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"
+          data-aos-easing="ease-in-out">
           <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sint earum saepe aliquid consequatur.
             Unde vitae optio numquam labore ipsam!</P>
         </div>
-        <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit commodi veritatis
-          ratione
-          ab dignissimos eligendi, quaerat ipsa nostrum quae iste eius? Perspiciatis, hic ut!</div>
+        <div class="col-md-4" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
+          <p>Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Ipsam, odit commodi veritatis
+            ratione
+            ab dignissimos eligendi, quaerat ipsa nostrum quae iste eius? Perspiciatis, hic ut!</p>
+        </div>
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -80,47 +87,49 @@
   <!-- project -->
   <section class="project" id="project">
     <div class="container">
-      <div class="row text-center">
-        <div class="col">
+      <div class="row text-center mb-3">
+        <div class="col" data-aos="zoom-in-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
           <h2>Project</h2>
         </div>
       </div>
+      <div class="row justify-content-around">
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card" data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
+            <img src="img/1.png" class="card-img-top" alt="img-1">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-3 align-self-center">
+          <div class="card" data-aos="zoom-in-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
+            <img src="img/2.png" class="card-img-top" alt="img-2">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-3 align-self-center" alt="img-3">
+          <div class="card" data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
+            <img src="img/3.png" alt="img-3" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="row justify-content-center text-center">
-        <div class="col-md-4 mb-3 mx-auto">
-          <div class="card" style="width: 18rem;">
-            <img src="img/1.png" class="card-img-top">
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
+            <img src="img/4.png" class="card-img-top" alt="img-4">
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/2.png" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/3.png" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/4.png" class="card-img-top">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card" style="width: 18rem;">
-            <img src="img/5.png" class="card-img-top">
+          <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
+            <img src="img/5.png" class="card-img-top" alt="img-5">
             <div class="card-body">
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, at.</p>
             </div>
@@ -139,12 +148,13 @@
   <section class="contact" id="contact">
     <div class="container">
       <div class="row text-center mb-3">
-        <div class="col">
+        <div class="col" data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500">
           <h2>Contact Me</h2>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
+      <div class="row justify-content-center" data-aos="zoom-in-up" data-aos-offset="400" data-aos-delay="50"
+        data-aos-duration="500">
+        <div class="col-md-8 col-8 col-lg-8">
           <form>
             <div class="mb-3">
               <label for="nama" class="form-label">Nama Lengkap</label>
@@ -183,7 +193,14 @@
     </div>
   </footer>
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- AOS Js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- My javascript -->
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>
